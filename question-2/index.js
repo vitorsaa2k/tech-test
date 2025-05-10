@@ -14,4 +14,4 @@ function isFibonacci(number) {
 		: "Numero informado não pertence à sequencia fibonacci";
 }
 
-isFibonacci(2);
+console.log(isFibonacci(21));
