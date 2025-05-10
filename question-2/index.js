@@ -9,7 +9,9 @@ function isFibonacci(number) {
 		beforeLast = temp;
 	}
 
-	return last === number || number === 0;
+	return last === number || number === 0
+		? "Numero informado pertence à sequencia fibonacci"
+		: "Numero informado não pertence à sequencia fibonacci";
 }
 
 isFibonacci(2);
